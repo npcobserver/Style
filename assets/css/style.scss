@@ -82,8 +82,8 @@ html, body, button, input, select, textarea {
 	font-feature-settings: "ss01", "ss08", "ss11";
 }
 
-h1, h2, h3, h4, h5, h6, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-	font-family: CS_A, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', serif;
+h1, h2, h3, h4, h5, h6 {
+	font-family: CS_A, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', serif !important;
 	font-weight: normal;
 	font-feature-settings: 'lnum';
 }
@@ -97,6 +97,6 @@ body {
 	color: black;
 }
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-	color: #0F52BD;
+h1, h2, h3, h4, h5, h6 {
+	color: #0F52BD !important;
 }
