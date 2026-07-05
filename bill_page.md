@@ -165,7 +165,7 @@ _`English title`_ [`中文标题`]
     - NPCSC deliberation – round #`*`: `date` (`text`) `consultation shortcode`
     - NPCSC deliberation – only round: `date` (`text`)
   - Date
-    - _planned for / originally planned for / likely by / expected by <mark><code>month year</code> / <code>other time</code><mark>_
+    - _planned for / originally planned for / likely by / expected by <mark><code>month year</code> / <code>other time</code></mark>_
     - `month da`y – `day, year`
     - `month day` – `month day, year`
     - `month day, year` – `month day, year`
@@ -174,13 +174,13 @@ _`English title`_ [`中文标题`]
     - (text pending)
     - (Chinese only)
     - (Chinese, English)
-    - (Chinese 🆚 | English)
+    - (Chinese 🆚 \| English)
     - (Chinese \| English › `Outlet1`; `Outlet2`)
     - (text N/A)
   - Consultation Shortcode
-    - <kbd>[consultation link="`url of public consultation post`" date="`date`"]</kbd>
+    - <kbd>[consultation link="<code>url of public consultation post</code>" date="<code>date</code>"]</kbd>
 - Other Public Consultations
-  - <mark>State Council / other body</mark> public consultation <mark>– round #<code>*</code><mark>: `date` (`text`) ✍️
+  - <mark>State Council / other body</mark> public consultation <mark>– round #<code>*</code></mark>: `date` (`text`) ✍️
 
 ##### Details
 - List entries reverse chronologically, with the newest at the top.
@@ -207,14 +207,14 @@ _`English title`_ [`中文标题`]
  
 #### 12. Legislative Records
 ##### Content
-**NPCSC Enactments
-**- Explanation (`date`) <mark>=说明</mark>
+**NPCSC Enactments**
+- Explanation (`date`) <mark>=说明</mark>
 - ✂️ Report on Status of Revision (`date`) <mark>=修改情况的汇报</mark>
 - Report on Results of Deliberation (`date`) <mark>=审议结果的报告</mark>
 - ✂️ Report on Suggestions for Revision (`date`) <mark>=修改意见的报告</mark>
 - Presidential Order (`date`)
-**NPC Enactments
-**- NPCSC Stage
+**NPC Enactments**
+  - NPCSC Stage
   - Explanation (`date`)
   - Report on Status of Revision (`date`)
   - ✂️ Report on Deliberation Opinions (`date`) <mark>=审议意见的报告</mark>
@@ -222,7 +222,7 @@ _`English title`_ [`中文标题`]
   - Explanation (`date`)
   - Report on Results of Deliberation (`date`)
   - Report on Suggestions for Revision (`date`)
-  - <mark>Presidential Order / NPC Public Announcement<mark> (`date`)
+  - <mark>Presidential Order / NPC Public Announcement</mark> (`date`)
 **Date**
 - `month day, year`
 - pending
@@ -235,7 +235,7 @@ _`English title`_ [`中文标题`]
 - Before these documents are released after a bill's passage, link to the relevant pages in our PDFs compiling the explanatory documents released during prior public consultations by adding <kbd>#page=<code>*</code></kbd> at the end of the URL. Assume a document is dated the start date of the relevant NPCSC session.
 - **Always** link presidential orders to [维基文库](https://en.wikisource.org/wiki/zh:%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E4%B8%BB%E5%B8%AD%E4%BB%A4/%E7%AC%AC%E5%8D%81%E5%9B%9B%E5%B1%8A) versions. Make sure to click on the relevant presidential order in the navigation sidebar, so that the link ends in <kbd>#第<code>×</code>号</kbd>.
 
-#### Official Q&A & Press Conference
+#### 13. Official Q&A & Press Conference
 ##### Content
 - ✂️ **Official Q&A:** `body providing the Q&A` (`month day, year`)
 - ✂️ **Press Conference:** `body holding the press conference` (`month day, year`)
