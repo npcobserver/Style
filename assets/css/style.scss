@@ -85,6 +85,14 @@ src: url('https://npcobserver.com/wp-content/uploads/custom_fonts/CenturySupra/c
 }
 
 /* GLOBAL FONT RULES */
+:root {
+  font-size: 1.08rem; /* sets 1 em*/
+}
+
+body {
+	font-size: 1rem;
+}
+
 html, body, button, input, select, textarea {
 	font-family: equity_a, "Times New Roman", "Kaiti SC", "STKaiti", "KaiTi", serif !important;
 	font-feature-settings: "ss01", "ss08", "ss11";
@@ -117,7 +125,15 @@ mark {
 	border-radius: 0.3em;
 }
 
-code {
+.main-content code {
 	font-family: "Fira Mono", monospace;
 	padding: 2px 2px;
+	font-size: 0.9em
+}
+
+.main-content kbd {
+	font-size: 0.9em;
+	line-height: 1.1em;
+	padding: 3px 3px;
+	background-color: inherit;
 }
