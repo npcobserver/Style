@@ -31,14 +31,14 @@
 ##### Content
 - Defaults
   - [<span class="smcp">Current Text</span>: _not yet enacted_]
-  - <span style="color: #DE2910">[Cᴜʀʀᴇɴᴛ Tᴇxᴛ: _not yet available_]</span>
+  - <span style="color: #DE2910">[<span class="smcp">Current Text</span>: _not yet available_]</span>
   - [<span class="smcp">Current Text</span>: Chinese only]
   - [<span class="smcp">Current Text</span>: Chinese, English]
 - With comparison charts
   - [<span class="smcp">Current Text</span>: Chinese only · 🆚]
   - [<span class="smcp">Current Text</span>: Chinese \| English · 🆚]
 - Multiple translations
-  - [<span class="smcp">Current Text</span>: Chinese \| English  `Outlet1`; `Outlet2`]
+  - [<span class="smcp">Current Text</span>: Chinese \| English › `Outlet1`; `Outlet2`]
 - Insignificantly outdated translation
   - [<span class="smcp">Available Text</span>: Chinese (current) \| English (v. `year`)]
 
@@ -46,7 +46,7 @@
 - Enter <span class="smcp">Current Text</span> in "Edit as HTML" mode as <kbd>[&lt;span class="small-caps"&gt;Current Text&lt;/span&gt;: *]</kbd>.
 - **Comparison chart**
   - Link to comparison charts here **only** in the case of a new law or revision. For amendments, see "Legislative History and Text."
-  - When a webpage or file includes both a text and a comparison chart, do NOT include <kdb>·</kbd>; instead, apply its link to both the relevant language name and the 🆚 emoji.
+  - When a webpage or file includes both a text and a comparison chart, do NOT include <kbd>·</kbd>; instead, apply its link to both the relevant language name and the 🆚 emoji.
 - **Bills passed but not yet available**
   - In the case of an amendment or a revision, (1) change the text to "Chinese only" but do NOT alter the link; (2) apply the native <span style="color:white; background-color:#abb8c3">cyan bluish gray</span>; and (3) add "_Full text of the Law as <mark>amended / revised</mark> is not yet available_" below (see next row). **At my discretion, exceptions will be made for closely watched bills.**
   - In the case of a new law, apply the native <span style="color:white; background-color:#cf2e2e">vivid red</span>, which will be converted to <span style="color:white; background-color:#DE2910">#DE2910</span> automatically.
@@ -89,7 +89,7 @@ Abbreviate the months.
 ##### Details
 - **Always capitalize** the first letter after the colon—e.g., "Planned" when appearing alone.
 - Apply color using the "Highlight" function in WordPress editor.
-  - Passed: native <span style="color:white; background-color:#00d084)">vivid green cyan</span> (which will be converted to <span style="color:white; background-color:hsl(123, 70%, 40%)">hsl(123, 70%, 40%)</span> automatically)
+  - Passed: native <span style="color:white; background-color:#00d084">vivid green cyan</span> (which will be converted to <span style="color:white; background-color:hsl(123, 70%, 40%)">hsl(123, 70%, 40%)</span> automatically)
   - Pending / Submitted: native <span style="color:white; background-color:#ff6900">luminous vivid orange</span>
   - Planned / Solicited public comment: <span style="color:white; background-color:#2962FF">#2962FF</span>
   - Withdrawn: <span style="color:white; background-color:#FF0000">#FF0000</span>
@@ -110,7 +110,7 @@ _`English title`_ [`中文标题`]
 
 #### 7. Legislative Body (Vote)
 ##### Content
-<mark>NPCSC / NPC</mark> (<mark>TBD / N/A / `for–against–abstain`</mark>)
+<mark>NPCSC / NPC</mark> (<mark>TBD / N/A / <code>for–against–abstain</code></mark>)
 
 ##### Details
 - Change (1) "NPCSC" to "NPC" and (2) "Submitter" to "Initial Submitter" **only after** the NPCSC has decided to submit a bill to the NPC.
