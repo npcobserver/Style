@@ -85,10 +85,6 @@ src: url('https://npcobserver.com/wp-content/uploads/custom_fonts/CenturySupra/c
 }
 
 /* GLOBAL FONT RULES */
-:root {
-  font-size: 1.08rem; /* sets 1 em*/
-}
-
 body {
 	font-size: 1rem;
 }
@@ -99,7 +95,7 @@ html, body, button, input, select, textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: CS_A, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', serif !important;
+	font-family: CS_A, "Kaiti SC", "STKaiti", "KaiTi", serif !important;
 	font-weight: normal;
 	font-feature-settings: 'lnum';
 }
@@ -127,9 +123,9 @@ mark {
 
 .main-content code {
 	color: inherit;
-	font-family: "Fira Mono", monospace;
+	font-family: CS_A, "Kaiti SC", "STKaiti", "KaiTi", serif !important;
 	padding: 2px 2px;
-	font-size: 0.9em
+	font-size: 1em;
 }
 
 .main-content kbd {
