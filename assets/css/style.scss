@@ -126,6 +126,7 @@ mark {
 }
 
 .main-content code {
+	color: inherit;
 	font-family: "Fira Mono", monospace;
 	padding: 2px 2px;
 	font-size: 0.9em
@@ -135,5 +136,5 @@ mark {
 	font-size: 0.9em;
 	line-height: 1.1em;
 	padding: 3px 3px;
-	background-color: inherit;
+	background-color: transparent;
 }
