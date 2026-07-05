@@ -58,7 +58,7 @@
 ##### Details
 - Apply the native <span style="color:white; background-color:#cf2e2e">vivid red</span>, which will be converted to <span style="color:white; background-color:#DE2910">#DE2910</span> automatically.
 - Add this line when the amended or revised text is not yet available on 维基文库, **whether or not** an official text has been released. **At my discretion, exceptions will be made for closely watched bills.**
-- When this line is added, change the color of the Current Text line to the native <span style="color:white; background-color:#abb8c3">cyan bluish gray</span>.
+- When this line is added, change the color of the <span class="smcp">Current Text</span> line to the native <span style="color:white; background-color:#abb8c3">cyan bluish gray</span>.
 
 #### 5. Statutory History
 ##### Content
