@@ -1,0 +1,47 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/*Custom Fonts*/
+@font-face {
+font-family: equity_a;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('https://npcobserver.com/wp-content/uploads/custom_fonts/Equity%20OT/equity_ot_a_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('https://npcobserver.com/wp-content/uploads/custom_fonts/Equity%20OT/equity_ot_a_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('https://npcobserver.com/wp-content/uploads/custom_fonts/Equity%20OT/equity_ot_a_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('https://npcobserver.com/wp-content/uploads/custom_fonts/Equity%20OT/equity_ot_a_bold_italic.woff2') format('woff2');
+}
+
+/*Global Font Rules*/
+html, body, button, input, select, textarea {
+	font-family: equity_a, "Times New Roman", "Kaiti SC", "STKaiti", "KaiTi", serif !important;
+	font-feature-settings: "onum", "ss01", "ss08", "ss11";
+}
