@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/*Custom Fonts*/
+/* CUSTOM FONTS */
 @font-face {
 font-family: equity_a;
 font-style: normal;
@@ -40,13 +40,63 @@ font-display: auto;
 src: url('https://npcobserver.com/wp-content/uploads/custom_fonts/Equity%20OT/equity_ot_a_bold_italic.woff2') format('woff2');
 }
 
-/*Global Font Rules*/
+@font-face {
+font-family: CS_A;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('/wp-content/uploads/custom_fonts/CenturySupra/century_supra_ot_a_regular.woff2') format('woff2');
+}
 
+@font-face {
+font-family: CS_A;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('/wp-content/uploads/custom_fonts/CenturySupra/century_supra_ot_a_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: CS_A;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('/wp-content/uploads/custom_fonts/CenturySupra/century_supra_ot_b_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: CS_A;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('/wp-content/uploads/custom_fonts/CenturySupra/century_supra_ot_b_bold_italic.woff2') format('woff2');
+}
+
+/* GLOBAL FONT RULES */
 html, body, button, input, select, textarea {
 	font-family: equity_a, "Times New Roman", "Kaiti SC", "STKaiti", "KaiTi", serif !important;
-	font-feature-settings: "onum", "ss01", "ss08", "ss11";
+	font-feature-settings: "ss01", "ss08", "ss11";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: CS_A, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', serif;
+	font-weight: normal;
+	font-feature-settings: 'lnum';
 }
 
 .small-caps, .smcp {
   font-feature-settings: "smcp";
+}
+
+/* COLOR */
+body {
+	color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #0F52BD;
 }
